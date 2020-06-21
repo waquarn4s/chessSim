@@ -6,8 +6,9 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.StringJoiner;
 
+import static utility.Utility.COMMA_SEPARATED_DELIMITER;
+
 public class ApplicationController {
-    private static final String COMMA_SEPARATED_DELIMITER = ", ";
     private static Scanner sc = new Scanner(System.in);
     private ApplicationService applicationService = new ApplicationService();
 
